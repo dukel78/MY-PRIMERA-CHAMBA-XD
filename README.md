@@ -2,4 +2,4 @@
 hola
 
 proyecto para intituto alfa carabobo
-lo aestoy haciendo por que quiero aprender xd
+lo estoy haciendo por que quiero aprender xd
