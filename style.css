@@ -12,5 +12,10 @@
 }
 
 body{
-    color: ;
+    color: #1e1e1e;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
