@@ -1,0 +1,108 @@
+:root{
+    --margin-page: 60xp;
+    --color-oscuro: #232425;
+    --color-azul_oscuro: #082040;
+    --color-azul_medio: #0D4373;
+    --color-azul_claro: #1462A6;
+    --color-rojo: #FF1C1C;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(/fuentes/Inter-Italic-VariableFont_opsz\,wght.ttf);
+}
+
+*{
+    padding: unset;
+    margin: unset;
+    border: unset;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family:roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    box-sizing: border-box;
+    outline: unset;
+
+}
+
+body{
+    color: #FFFFFF;
+    background-color: #232425;
+}
+.lista{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px var(--margin-page);
+    position: relative;
+}
+
+.lista ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+.lista .cosa 
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    filter: blur(30px);
+}
+.jumbotron{
+  background-image: url('/assets/JUMBOTRON.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  
+}
+.carta{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.carta:hover img{
+    transform: scale(1.1);
+}
+
+    
+
+.anuncio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    
+}
+.JP{
+    display: flex;
+    justify-content: center;
+    font-size: 58px;
+    margin-top: 60px;
+    
+}
+.inicio{
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: var(--color-azul_oscuro);
+    color: #FFFFFF;
+    transition: all;
+}
+
+button{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #505080;
+    color: #FFFFFF;
+
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+
